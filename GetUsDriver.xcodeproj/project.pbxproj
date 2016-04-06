@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F4FA7851CB4FFE400644FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FA7841CB4FFE400644FEB /* main.m */; };
+		4F4FA7881CB4FFE400644FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FA7871CB4FFE400644FEB /* AppDelegate.m */; };
+		4F4FA78B1CB4FFE400644FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FA78A1CB4FFE400644FEB /* ViewController.m */; };
+		4F4FA78E1CB4FFE400644FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4FA78C1CB4FFE400644FEB /* Main.storyboard */; };
+		4F4FA7901CB4FFE400644FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4FA78F1CB4FFE400644FEB /* Assets.xcassets */; };
+		4F4FA7931CB4FFE400644FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4FA7911CB4FFE400644FEB /* LaunchScreen.storyboard */; };
+		4F4FA79E1CB4FFE500644FEB /* GetUsDriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FA79D1CB4FFE500644FEB /* GetUsDriverTests.m */; };
+		4F4FA7A91CB4FFE500644FEB /* GetUsDriverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FA7A81CB4FFE500644FEB /* GetUsDriverUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F4FA79A1CB4FFE500644FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4FA7781CB4FFE400644FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4FA77F1CB4FFE400644FEB;
+			remoteInfo = GetUsDriver;
+		};
+		4F4FA7A51CB4FFE500644FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4FA7781CB4FFE400644FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F4FA77F1CB4FFE400644FEB;
+			remoteInfo = GetUsDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F4FA7801CB4FFE400644FEB /* GetUsDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetUsDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4FA7841CB4FFE400644FEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F4FA7861CB4FFE400644FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F4FA7871CB4FFE400644FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F4FA7891CB4FFE400644FEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F4FA78A1CB4FFE400644FEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F4FA78D1CB4FFE400644FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F4FA78F1CB4FFE400644FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F4FA7921CB4FFE400644FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F4FA7941CB4FFE400644FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4FA7991CB4FFE500644FEB /* GetUsDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetUsDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4FA79D1CB4FFE500644FEB /* GetUsDriverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetUsDriverTests.m; sourceTree = "<group>"; };
+		4F4FA79F1CB4FFE500644FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4FA7A41CB4FFE500644FEB /* GetUsDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetUsDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4FA7A81CB4FFE500644FEB /* GetUsDriverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetUsDriverUITests.m; sourceTree = "<group>"; };
+		4F4FA7AA1CB4FFE500644FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F4FA77D1CB4FFE400644FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4FA7961CB4FFE500644FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4FA7A11CB4FFE500644FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4FA7771CB4FFE400644FEB = {
+			isa = PBXGroup;
+			children = (
+				4F4FA7821CB4FFE400644FEB /* GetUsDriver */,
+				4F4FA79C1CB4FFE500644FEB /* GetUsDriverTests */,
+				4F4FA7A71CB4FFE500644FEB /* GetUsDriverUITests */,
+				4F4FA7811CB4FFE400644FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F4FA7811CB4FFE400644FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4FA7801CB4FFE400644FEB /* GetUsDriver.app */,
+				4F4FA7991CB4FFE500644FEB /* GetUsDriverTests.xctest */,
+				4F4FA7A41CB4FFE500644FEB /* GetUsDriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F4FA7821CB4FFE400644FEB /* GetUsDriver */ = {
+			isa = PBXGroup;
+			children = (
+				4F4FA7861CB4FFE400644FEB /* AppDelegate.h */,
+				4F4FA7871CB4FFE400644FEB /* AppDelegate.m */,
+				4F4FA7891CB4FFE400644FEB /* ViewController.h */,
+				4F4FA78A1CB4FFE400644FEB /* ViewController.m */,
+				4F4FA78C1CB4FFE400644FEB /* Main.storyboard */,
+				4F4FA78F1CB4FFE400644FEB /* Assets.xcassets */,
+				4F4FA7911CB4FFE400644FEB /* LaunchScreen.storyboard */,
+				4F4FA7941CB4FFE400644FEB /* Info.plist */,
+				4F4FA7831CB4FFE400644FEB /* Supporting Files */,
+			);
+			path = GetUsDriver;
+			sourceTree = "<group>";
+		};
+		4F4FA7831CB4FFE400644FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F4FA7841CB4FFE400644FEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F4FA79C1CB4FFE500644FEB /* GetUsDriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4FA79D1CB4FFE500644FEB /* GetUsDriverTests.m */,
+				4F4FA79F1CB4FFE500644FEB /* Info.plist */,
+			);
+			path = GetUsDriverTests;
+			sourceTree = "<group>";
+		};
+		4F4FA7A71CB4FFE500644FEB /* GetUsDriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F4FA7A81CB4FFE500644FEB /* GetUsDriverUITests.m */,
+				4F4FA7AA1CB4FFE500644FEB /* Info.plist */,
+			);
+			path = GetUsDriverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F4FA77F1CB4FFE400644FEB /* GetUsDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4FA7AD1CB4FFE500644FEB /* Build configuration list for PBXNativeTarget "GetUsDriver" */;
+			buildPhases = (
+				4F4FA77C1CB4FFE400644FEB /* Sources */,
+				4F4FA77D1CB4FFE400644FEB /* Frameworks */,
+				4F4FA77E1CB4FFE400644FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetUsDriver;
+			productName = GetUsDriver;
+			productReference = 4F4FA7801CB4FFE400644FEB /* GetUsDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F4FA7981CB4FFE500644FEB /* GetUsDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4FA7B01CB4FFE500644FEB /* Build configuration list for PBXNativeTarget "GetUsDriverTests" */;
+			buildPhases = (
+				4F4FA7951CB4FFE500644FEB /* Sources */,
+				4F4FA7961CB4FFE500644FEB /* Frameworks */,
+				4F4FA7971CB4FFE500644FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4FA79B1CB4FFE500644FEB /* PBXTargetDependency */,
+			);
+			name = GetUsDriverTests;
+			productName = GetUsDriverTests;
+			productReference = 4F4FA7991CB4FFE500644FEB /* GetUsDriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F4FA7A31CB4FFE500644FEB /* GetUsDriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4FA7B31CB4FFE500644FEB /* Build configuration list for PBXNativeTarget "GetUsDriverUITests" */;
+			buildPhases = (
+				4F4FA7A01CB4FFE500644FEB /* Sources */,
+				4F4FA7A11CB4FFE500644FEB /* Frameworks */,
+				4F4FA7A21CB4FFE500644FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F4FA7A61CB4FFE500644FEB /* PBXTargetDependency */,
+			);
+			name = GetUsDriverUITests;
+			productName = GetUsDriverUITests;
+			productReference = 4F4FA7A41CB4FFE500644FEB /* GetUsDriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F4FA7781CB4FFE400644FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bharat;
+				TargetAttributes = {
+					4F4FA77F1CB4FFE400644FEB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4F4FA7981CB4FFE500644FEB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4F4FA77F1CB4FFE400644FEB;
+					};
+					4F4FA7A31CB4FFE500644FEB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4F4FA77F1CB4FFE400644FEB;
+					};
+				};
+			};
+			buildConfigurationList = 4F4FA77B1CB4FFE400644FEB /* Build configuration list for PBXProject "GetUsDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F4FA7771CB4FFE400644FEB;
+			productRefGroup = 4F4FA7811CB4FFE400644FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4FA77F1CB4FFE400644FEB /* GetUsDriver */,
+				4F4FA7981CB4FFE500644FEB /* GetUsDriverTests */,
+				4F4FA7A31CB4FFE500644FEB /* GetUsDriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F4FA77E1CB4FFE400644FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4FA7931CB4FFE400644FEB /* LaunchScreen.storyboard in Resources */,
+				4F4FA7901CB4FFE400644FEB /* Assets.xcassets in Resources */,
+				4F4FA78E1CB4FFE400644FEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4FA7971CB4FFE500644FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4FA7A21CB4FFE500644FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F4FA77C1CB4FFE400644FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4FA78B1CB4FFE400644FEB /* ViewController.m in Sources */,
+				4F4FA7881CB4FFE400644FEB /* AppDelegate.m in Sources */,
+				4F4FA7851CB4FFE400644FEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4FA7951CB4FFE500644FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4FA79E1CB4FFE500644FEB /* GetUsDriverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4FA7A01CB4FFE500644FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4FA7A91CB4FFE500644FEB /* GetUsDriverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F4FA79B1CB4FFE500644FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4FA77F1CB4FFE400644FEB /* GetUsDriver */;
+			targetProxy = 4F4FA79A1CB4FFE500644FEB /* PBXContainerItemProxy */;
+		};
+		4F4FA7A61CB4FFE500644FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F4FA77F1CB4FFE400644FEB /* GetUsDriver */;
+			targetProxy = 4F4FA7A51CB4FFE500644FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F4FA78C1CB4FFE400644FEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4FA78D1CB4FFE400644FEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F4FA7911CB4FFE400644FEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F4FA7921CB4FFE400644FEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F4FA7AB1CB4FFE500644FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F4FA7AC1CB4FFE500644FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4FA7AE1CB4FFE500644FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetUsDriver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetUsDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F4FA7AF1CB4FFE500644FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetUsDriver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetUsDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F4FA7B11CB4FFE500644FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetUsDriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetUsDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetUsDriver.app/GetUsDriver";
+			};
+			name = Debug;
+		};
+		4F4FA7B21CB4FFE500644FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetUsDriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetUsDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetUsDriver.app/GetUsDriver";
+			};
+			name = Release;
+		};
+		4F4FA7B41CB4FFE500644FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetUsDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetUsDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetUsDriver;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4F4FA7B51CB4FFE500644FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetUsDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetUsDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetUsDriver;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F4FA77B1CB4FFE400644FEB /* Build configuration list for PBXProject "GetUsDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4FA7AB1CB4FFE500644FEB /* Debug */,
+				4F4FA7AC1CB4FFE500644FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4FA7AD1CB4FFE500644FEB /* Build configuration list for PBXNativeTarget "GetUsDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4FA7AE1CB4FFE500644FEB /* Debug */,
+				4F4FA7AF1CB4FFE500644FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F4FA7B01CB4FFE500644FEB /* Build configuration list for PBXNativeTarget "GetUsDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4FA7B11CB4FFE500644FEB /* Debug */,
+				4F4FA7B21CB4FFE500644FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F4FA7B31CB4FFE500644FEB /* Build configuration list for PBXNativeTarget "GetUsDriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4FA7B41CB4FFE500644FEB /* Debug */,
+				4F4FA7B51CB4FFE500644FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F4FA7781CB4FFE400644FEB /* Project object */;
+}
